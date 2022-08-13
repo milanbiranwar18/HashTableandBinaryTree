@@ -59,6 +59,11 @@ namespace HashTableandBinaryTree
 
             binarySearch.GetSize();
 
+            Console.WriteLine(" ");
+
+            bool result = binarySearch.IfExists(63, binarySearch);
+            Console.WriteLine(result);
+
 
         }
     }
